@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FaceTimeView_Example' do
+  pod 'FaceTimeView', :path => '../'
+
+  target 'FaceTimeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
